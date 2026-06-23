@@ -20,3 +20,17 @@ false || console.log("printed");
 //En la primera línea, el operador OR || detiene la evaluación inmediatamente después de ver que es verdadera, por lo que la alerta no se ejecuta.
 
 // operador && AND busca 1 falso y devuelve falso
+console.log(true && true); // true
+console.log(false && true); // false
+console.log(true && false); // false
+console.log(false && false); // false
+
+// operador ! NOT
+console.log(!true); // false
+console.log(!false); // true
+
+// !! lo que hace es convertir el valor a booleano y luego a negacion
+console.log(!!""); // false
+console.log(!""); // true
+console.log(!!"cadena de texto no vacía"); // true
+console.log(!null); // true
