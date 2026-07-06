@@ -75,3 +75,5 @@ function UserFinal(name) {
 let metodoEnConstructor = new UserFinal("Alexis");
 
 metodoEnConstructor.sayHi(); // Mi nombre es: John
+
+// para no perder la racha
